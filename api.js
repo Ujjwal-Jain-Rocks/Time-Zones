@@ -1,4 +1,4 @@
-async function getData(url = '',) {
+async function getData(url ) {
     const response = await fetch(url);
         
        
