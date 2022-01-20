@@ -8,7 +8,7 @@ async function getData(url = '',) {
 
 getData("http://worldtimeapi.org/api/timezone/Asia/Kolkata")
 .then(data => {
-    asiaTime.innerHTML = data.datetime;
+    ind.innerHTML = data.datetime;
 });
 
 
